@@ -1,0 +1,150 @@
+body {
+  font-family: "Calibri", sans-serif;
+}
+
+.stadium-thumbnail {
+  height: 200px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.card {
+  border-radius: 0;
+  border: none;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.card-custom {
+  border: none;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.card-custom:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.background-image {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("uploads/Stadium_Booking.png");
+  background-size: cover;
+  background-position: center;
+  opacity: 0.05;
+  z-index: -1;
+}
+
+.container {
+  padding: 20px;
+}
+
+.container-Page {
+  padding: 30px;
+}
+
+h2.title {
+  color: #198754;
+}
+
+hr.title {
+  border: 2px solid #19875470;
+  width: 60px;
+  margin-bottom: 40px;
+}
+
+h4.msg {
+  background-color: #004d9910;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.bgb {
+  background-image: url("uploads/Stadium_Booking.png");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  color: #fff;
+}
+
+.lead {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 1.4;
+  color: #ffffff;
+  text-shadow: 1px 1px 3px #a77d00;
+}
+
+.container-fluid.p-5.bg-success.text-white.text-center {
+  text-shadow: 6px 6px 8px rgba(0, 0, 0, 0.7);
+}
+
+.display-3 {
+  font-family: "Cairo Play", sans-serif;
+  font-size: 50px;
+  color: #ffd700;
+  text-shadow: 3px 3px 5px #a77d00;
+}
+
+.container-gaol {
+  font-family: "Harmattan", sans-serif;
+  color: #1673cf;
+  font-size: 19px;
+  background-color: #f1e07c;
+  padding-top: 0;
+  padding-bottom: 0;
+  text-align: center;
+}
+
+.navbar-custom {
+  background-color: #004d99;
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-nav .nav-link {
+  color: #ffffff;
+}
+
+.footer-custom {
+  background-color: #f2f2f2;
+  color: #636363;
+  padding: 20px 0;
+}
+
+#modalSearchTerm {
+  border: 2px solid #007bff;
+  border-radius: 5px;
+  padding: 10px 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+#modalSearchTerm:focus {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  outline: none;
+  border-color: #0056b3;
+}
+
+#modalSearchResults .card {
+  margin-bottom: 10px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.modal-content {
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.modal-header {
+  border-bottom: 1px solid #dee2e6;
+}
+
+.btn-close {
+  color: #007bff;
+}
